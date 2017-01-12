@@ -409,39 +409,16 @@ body {
     height: 15px;
   }
 }
-.lines__line-1 {
-  background-color: #04e4a2;
+.lines-image {
   position: absolute;
-  top: 240px;
-  width: 100%;
-  height: 80px;
-  left: -50%;
-  -webkit-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
-  transform: rotate(30deg);
+  top: -305px;
+  left: calc(50vw - 1450px);
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
 }
 @media screen and (max-width: 1000px) {
-  .lines__line-1 {
-    display: none;
-  }
-}
-.lines__line-2 {
-  background-color: #69f0ae;
-  position: absolute;
-  top: 320px;
-  width: 100%;
-  height: 80px;
-  left: -50%;
-  -webkit-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-@media screen and (max-width: 1000px) {
-  .lines__line-2 {
+  .specification img {
     display: none;
   }
 }
