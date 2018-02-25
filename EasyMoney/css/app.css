@@ -1,0 +1,32 @@
+.content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 30px;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .content__pie-chart {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .content__bet {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    -ms-flex-pack: center;
+        justify-content: center; }
+.index-page {
+  padding: 0 20px; }
+  .index-page__description {
+    font-size: 18px; }
+  .index-page__tool {
+    margin-left: 10px; }
+  .index-page__content {
+    max-width: 60%;
+    margin: 0 auto; }
+  .index-page__github-icon {
+    margin-right: 10px; }
+.application {
+  height: 100%; }
